@@ -1,4 +1,4 @@
-module github.com/Asphalte-Tech/go-shopify-graphql-model/v4
+module github.com/Asphalte-Tech/go-shopify-graphql-model
 
 go 1.17
 
