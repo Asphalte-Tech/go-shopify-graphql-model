@@ -4,12 +4,9 @@ go 1.17
 
 require (
 	github.com/99designs/gqlgen v0.17.33
-	github.com/r0busta/go-shopify-graphql-model/v3 v3.0.0
 	github.com/vektah/gqlparser/v2 v2.5.3
 	gopkg.in/guregu/null.v4 v4.0.0
 )
-
-replace github.com/r0busta/go-shopify-graphql-model/v3 => github.com/Asphalte-Tech/go-shopify-graphql-model/v4 v4.2023.1
 
 require (
 	github.com/agnivade/levenshtein v1.1.1 // indirect
@@ -19,7 +16,7 @@ require (
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	golang.org/x/mod v0.11.0 // indirect
 	golang.org/x/sys v0.9.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
+	golang.org/x/text v0.10.0 // indirect
 	golang.org/x/tools v0.9.3 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
