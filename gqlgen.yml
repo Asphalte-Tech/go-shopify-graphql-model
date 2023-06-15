@@ -1,0 +1,18 @@
+# Where are all the schema files located? globs are supported eg  src/**/*.graphql
+schema:
+  - schema.graphql
+
+# Where should any generated models go?
+model:
+  filename: graph/model/models_gen.go
+  package: model
+
+omit_slice_element_pointers: true
+
+models:
+  Money:
+    model:
+      - github.com/Asphalte-Tech/go-shopify-graphql-model/v4/graphql.Money
+  Decimal:
+    model:
+      - github.com/Asphalte-Tech/go-shopify-graphql-model/v4/graphql.Decimal
